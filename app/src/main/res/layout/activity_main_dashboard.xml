@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnhome"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="12dp"
+        android:background="@mipmap/home"
+        android:foreground="@mipmap/home"
+        android:gravity="bottom|center"
+        android:text="@string/home"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <Button
+        android:id="@+id/btnprofile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:background="@mipmap/profilee"
+        android:gravity="bottom|center"
+        android:text="@string/profile"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toEndOf="@+id/btnhome"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <Button
+        android:id="@+id/tripsbtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:background="@mipmap/trip"
+        android:gravity="bottom|center"
+        android:text="@string/mytrips"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnhome" />
+
+    <Button
+        android:id="@+id/hotelbtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@mipmap/hotels"
+        android:gravity="bottom|center"
+        android:text="@string/hotels"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toEndOf="@+id/tripsbtn"
+        app:layout_constraintTop_toBottomOf="@+id/btnprofile" />
+
+    <Button
+        android:id="@+id/feedbackbtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:background="@mipmap/feedback1"
+        android:gravity="bottom|center"
+        android:text="@string/feedback"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tripsbtn" />
+
+    <Button
+        android:id="@+id/reviewbtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@mipmap/review2"
+        android:gravity="bottom|center"
+        android:text="@string/review"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toEndOf="@+id/feedbackbtn"
+        app:layout_constraintTop_toBottomOf="@+id/hotelbtn" />
+
+    <Button
+        android:id="@+id/aboutbtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:background="@mipmap/aboutus2"
+        android:gravity="bottom|center"
+        android:text="@string/about_us"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feedbackbtn" />
+
+    <Button
+        android:id="@+id/contactbtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:background="@mipmap/contactus2"
+        android:gravity="bottom|center"
+        android:text="@string/contact_us"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutbtn" />
+
+    <Button
+        android:id="@+id/logoutbtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@mipmap/logout"
+        android:gravity="bottom|center"
+        android:text="@string/logout"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toEndOf="@+id/contactbtn"
+        app:layout_constraintTop_toBottomOf="@+id/btnmap" />
+
+    <Button
+        android:id="@+id/btnmap"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@mipmap/maps"
+        android:gravity="bottom|center"
+        android:text="Map"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toEndOf="@+id/aboutbtn"
+        app:layout_constraintTop_toBottomOf="@+id/reviewbtn" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="1362dp"
+        android:layout_height="1174dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.657"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.424"
+        app:srcCompat="@mipmap/coloimg" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="365dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="24dp"
+        android:text="Sri Lankan Travellers "
+        android:textAllCaps="false"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="43dp"
+        android:textStyle="bold"
+        app:fontFamily="cursive"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DashBoard"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

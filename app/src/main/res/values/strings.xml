@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">SriLankan Travellers</string>
+    <string name="msg1">SriLankan Travellers</string>
+    <string name="msg2">Login</string>
+    <string name="msg5">Dont have an account??</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="ss">where do you want to go...</string>
+    <string name="your_feedback">Your Feedback</string>
+    <string name="send_your_feedback">Send Your Feedback</string>
+    <string name="read_your_feedback">Read Your Feedback</string>
+    <string name="e_mail">E-mail</string>
+    <string name="update">Update</string>
+    <string name="textview" />
+    <string name="trips" />
+    <string name="srilankatraveller_com_lists_hotels_and_destinations_around_sri_lanka_travellers_to_sri_lanka_can_search_hotels_and_make_a_reservation_online_also_travellers_can_write_reviews_about_the_hotels_that_they_have_already_stayed_in">Srilanka Traveller lists hotels and destinations around Sri Lanka. Travellers to Sri Lanka can search hotels and make a reservation online. Also travellers can write reviews about the hotels that they have already stayed in.</string>
+    <string name="about_us">About Us</string>
+    <string name="mytrips">Trips</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="contact_us1">Contact Us</string>
+    <string name="logout">Logout</string>
+    <string name="about_uss">About Us</string>
+    <string name="wall">wall</string>
+    <string name="feedback">FeedBack</string>
+    <string name="review">REVIEWS</string>
+    <string name="hotels">HOTELS</string>
+    <string name="t1">Sigiriya also known as the Lion\'s Rock is a rock fortress and a palace located in the Matale district of Sri Lanka. This ruin is surrounded by gardens, ponds and other structures. Sigiriya was built by King Kassapa and it is included as a World Heritage site. Sigiriya is the best preserved city centre in Asia.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="colombo_sri_lanka_22_6b_ettukala_negambo_sri_lanka">Colombo, Sri Lanka. #22/6B, Ettukala, Negambo, Sri Lanka.</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="msg8">Cities</string>
+    <string name="msg9">colombo</string>
+    <string name="msg3">Galle</string>
+    <string name="msg4">Info</string>
+    <string name="msg10">Images</string>
+    <string name="msg6">Hotels</string>
+    <string name="msg7">Near by Hotels</string>
+
+</resources>

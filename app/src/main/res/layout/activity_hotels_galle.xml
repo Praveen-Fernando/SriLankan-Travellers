@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainback"
+    tools:context=".HotelsGalle">
+
+    <TextView
+        android:id="@+id/nearhotel1"
+        android:layout_width="188dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/msg7"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.188"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/msg7" />
+
+    <ImageButton
+        android:id="@+id/gallefort"
+        android:layout_width="178dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nearhotel1"
+        app:srcCompat="@drawable/gallefort" />
+
+    <ImageButton
+        android:id="@+id/le"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.684"
+        app:layout_constraintStart_toEndOf="@+id/gallefort"
+        app:layout_constraintTop_toBottomOf="@+id/nearhotel1"
+        app:srcCompat="@drawable/le" />
+
+    <ImageButton
+        android:id="@+id/tamarid"
+        android:layout_width="174dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gallefort"
+        app:srcCompat="@drawable/tamarid" />
+
+    <ImageButton
+        android:id="@+id/jet"
+        android:layout_width="199dp"
+        android:layout_height="166dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.722"
+        app:layout_constraintStart_toEndOf="@+id/tamarid"
+        app:layout_constraintTop_toBottomOf="@+id/le"
+        app:srcCompat="@drawable/jetwing" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

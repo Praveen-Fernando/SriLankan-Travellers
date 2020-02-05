@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/r1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    card_view:cardElevation="5dp"
+    card_view:contentPadding="5dp"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardMaxElevation="5dp">
+
+    <RelativeLayout
+        android:id="@+id/btn"
+        android:layout_width="fill_parent"
+        android:layout_height="301dp"
+        android:background="#ECEFF1"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/image_delete"
+            android:layout_width="80dp"
+            android:layout_height="63dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="-4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_delete_" />
+
+        <TextView
+            android:id="@+id/TripTextView"
+            android:layout_width="102dp"
+            android:layout_height="37dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginLeft="17dp"
+            android:text="Trip Name"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ShowTripTextView"
+            android:layout_width="107dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="34dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="37dp"
+            android:layout_marginRight="37dp"
+            android:layout_toStartOf="@+id/image_delete"
+            android:layout_toLeftOf="@+id/image_delete"
+            android:layout_toEndOf="@+id/TripTextView"
+            android:layout_toRightOf="@+id/TripTextView"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/DateTextView"
+            android:layout_width="102dp"
+            android:layout_height="37dp"
+            android:layout_below="@+id/TripTextView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="14dp"
+            android:text="Date"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ShowDatetextView"
+            android:layout_width="124dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/ShowTripTextView"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="122dp"
+            android:layout_marginRight="122dp"
+            android:layout_toEndOf="@+id/DateTextView"
+            android:layout_toRightOf="@+id/DateTextView"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/PlacesTextView"
+            android:layout_width="102dp"
+            android:layout_height="37dp"
+            android:layout_alignStart="@+id/DateTextView"
+            android:layout_alignLeft="@+id/DateTextView"
+            android:layout_alignBottom="@+id/DateTextView"
+            android:layout_marginStart="-3dp"
+            android:layout_marginLeft="-3dp"
+            android:layout_marginBottom="-50dp"
+            android:text="Places"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ShowPlacetextView"
+            android:layout_width="209dp"
+            android:layout_height="47dp"
+            android:layout_below="@+id/ShowDatetextView"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_toEndOf="@+id/PlacesTextView"
+            android:layout_toRightOf="@+id/PlacesTextView"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/DaysTextView"
+            android:layout_width="102dp"
+            android:layout_height="37dp"
+            android:layout_below="@+id/PlacesTextView"
+            android:layout_alignStart="@+id/PlacesTextView"
+            android:layout_alignLeft="@+id/PlacesTextView"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="66dp"
+            android:text="Days"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ShowDaystextView"
+            android:layout_width="102dp"
+            android:layout_height="37dp"
+            android:layout_below="@+id/ShowPlacetextView"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="149dp"
+            android:layout_marginRight="149dp"
+            android:layout_toEndOf="@+id/DaysTextView"
+            android:layout_toRightOf="@+id/DaysTextView"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/BudgetTextView"
+            android:layout_width="102dp"
+            android:layout_height="37dp"
+            android:layout_below="@+id/DaysTextView"
+            android:layout_alignStart="@+id/DaysTextView"
+            android:layout_alignLeft="@+id/DaysTextView"
+            android:layout_marginStart="-4dp"
+            android:layout_marginLeft="-4dp"
+            android:layout_marginTop="18dp"
+            android:text="Budget"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ShowBudgettextView"
+            android:layout_width="211dp"
+            android:layout_height="64dp"
+            android:layout_below="@+id/ShowDaystextView"
+            android:layout_marginStart="27dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/BudgetTextView"
+            android:layout_toRightOf="@+id/BudgetTextView"
+            android:text="TextView" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

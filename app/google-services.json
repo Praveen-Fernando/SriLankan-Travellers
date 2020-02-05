@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "688505977461",
+    "firebase_url": "https://srilankantravellers-97f85.firebaseio.com",
+    "project_id": "srilankantravellers-97f85",
+    "storage_bucket": "srilankantravellers-97f85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688505977461:android:4fc151e1479f03cbbb963c",
+        "android_client_info": {
+          "package_name": "com.example.srilankantravellers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688505977461-pd88eeoeasvue6rmfueajvipr42u1k49.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.srilankantravellers",
+            "certificate_hash": "db82f55a30b79b663219a5e9c5bbbe4209017707"
+          }
+        },
+        {
+          "client_id": "688505977461-kna32ece0d34fbohujmulho687s5d110.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq6oVGrSawsjZHo2aPWN3rZywwFBKH6HI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688505977461-kna32ece0d34fbohujmulho687s5d110.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

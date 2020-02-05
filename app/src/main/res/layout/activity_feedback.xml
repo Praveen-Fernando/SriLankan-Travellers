@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Feedback">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/img2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:gravity="bottom|center_horizontal"
+            android:paddingRight="30dp"
+            android:text="  Customer Feedback Section"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="33dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:gravity="center|left"
+            android:paddingStart="160dp"
+            android:text="Name"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:ems="10"
+
+            android:gravity="clip_vertical"
+            android:inputType="textPersonName"
+            android:shadowColor="#F0EEEE"
+            android:textColor="#FFFDFD"
+            android:textColorHighlight="#F8F8F8"
+            android:textColorHint="#FCFBFB"
+            android:textColorLink="#FAFAFA" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:background="#00FFFFFF"
+            android:gravity="center|left"
+            android:paddingStart="165dp"
+            android:text="@string/e_mail"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:shadowColor="#F8F8F8"
+            android:textColor="#F8F8F8"
+            tools:targetApi="o" />
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:gravity="center|left"
+            android:paddingStart="140dp"
+            android:text="@string/your_feedback"
+            android:textColor="@color/colorAccent"
+            android:textColorHighlight="#00FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Feedback"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:shadowColor="#F7F7F7"
+            android:textColor="#FFFFFF" />
+
+        <ListView
+            android:id="@+id/listViewfeedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/send_your_feedback"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="12dp" />
+
+        <Button
+            android:id="@+id/Update"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="@color/colorPrimary"
+            android:text="Update"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="13dp" />
+
+        <Button
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:background="@color/colorPrimary"
+            android:text="See all Feedbacks"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
